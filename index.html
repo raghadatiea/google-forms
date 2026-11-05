@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Google Form</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width ,initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- internal style
+   <style>
+
+   </style> -->
+  </head>
+  <body>
+    <!-- inline styling -->
+    <div class="header">
+      <h1>Select And Submit To Join One Of Our Course</h1>
+      <div class="content">
+        <div class="account">
+          <span class="email">q.irshid@gmail.com</span>
+          <span class="switch-account">
+            <a
+              href="https://www.google.com/account/about/?hl=en-US"
+              target="_blank"
+              >Switch Account</a
+            >
+          </span>
+
+          <span class="icon">
+            <i class="fa-solid fa-cloud-arrow-up"></i>
+          </span>
+        </div>
+        <p class="description">
+          The name, email address and photo associated with your Google Account
+          will be recorded when you upload files and submit this form
+        </p>
+        <p class="warning">*Indecates required questions</p>
+      </div>
+    </div>
+    <form>
+      <div class="question">
+        <div class="title">
+          <label for="email">Email</label>
+          <span class="required-icon">*</span>
+        </div>
+        <div class="input-field">
+          <input
+            id="email"
+            type="email"
+            placeholder="Your Email Adress"
+            required
+          />
+        </div>
+      </div>
+      <div class="question">
+        <div class="title">
+          <label for="name">Name</label>
+          <span class="required-icon">*</span>
+        </div>
+        <div class="input-field">
+          <input id="name" type="text" placeholder="Your Full Name" required />
+        </div>
+      </div>
+      <div class="question">
+        <div class="title">
+          <label for="phone">Phone Number</label>
+          <span class="required-icon">*</span>
+        </div>
+        <div class="input-field">
+          <input
+            id="phone"
+            type="text"
+            placeholder="Your Phone Number"
+            required
+          />
+        </div>
+      </div>
+      <div class="question">
+        <div class="title">
+          <label for="age">Age</label>
+          <!-- <span class="required-icon">*</span> -->
+        </div>
+        <div class="input-field">
+          <input
+            id="age"
+            type="number"
+            min="18"
+            max="45"
+            placeholder="Your Age"
+          />
+        </div>
+      </div>
+      <div class="question">
+        <div class="title">
+          <label for="course">Course</label>
+          <span class="required-icon">*</span>
+        </div>
+        <div class="input-field">
+          <select required>
+            <option value="1">Angular</option>
+            <option value="2">Asp.Net</option>
+            <option value="3">Python</option>
+          </select>
+        </div>
+      </div>
+      <div class="actions">
+        <button type="button" class="action-btn submit-btn">Submit</button>
+        <button type="reset" class="action-btn reset-btn">Clear Form</button>
+      </div>
+    </form>
+
+    <div class="footer">
+      <p class="copy-right">
+        This Form Created inside Summaya University for Technology ,Does this
+        form lopk suspicious?
+        <a href="">Report</a>
+      </p>
+      <p class="logo">Google Forms</p>
+    </div>
+	<!-- <div style = "margin:40px">
+    <img id="image" width="50%" height="50%" alt="random-img" />
+	</div>
+	<div>
+	<button id="previous">Previous</button>
+	<button id="next">Next</button>
+	</div> -->
+    <script src="script.js"></script>
+  </body>
+</html>
+<!-- shift+alt+down arrow -->
+<!-- attribute:1-global 2-custom:for only special elements -->
+<!-- <br />
+<br />
+
+<ul>
+  <li>firts</li>
+  <li>secound</li>
+</ul>
+
+<ol>
+  <li>first</li>
+  <li>secound</li>
+</ol>
+
+<table border="1">
+  <thead>
+    <tr>
+      <td>column1</td>
+      <td>column2</td>
+      <td>column</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="2">no more data</td>
+    </tr>
+  </tfoot>  
+</table> -->

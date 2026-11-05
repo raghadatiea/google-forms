@@ -1,0 +1,147 @@
+/* external styling
+root element */
+html {
+  background-color: #eee8f4;
+  font-family: sans-serif;
+  font-size: 14px;
+  margin: 4px 22%;
+  box-sizing: border-box;
+}
+.header {
+  background-color: white;
+  padding: 1% 4% 2%;
+  border-radius: 10px;
+  border: 1px #dddddd solid;
+  border-top: 9px #6442b2 solid;
+}
+.email,
+.switch-account,
+.icon,
+.desciption {
+  font-size: 0.9rem;
+}
+.email {
+  color: #797677;
+}
+
+.description {
+  color: #2d2c2f;
+}
+.warning {
+  color: #bb0707;
+}
+.icon {
+  cursor: pointer;
+}
+.question {
+  background-color: #ffffff;
+  padding: 2% 4%;
+  border-radius: 10px;
+  border: 1px #dddddd solid;
+  margin-top: 1%;
+}
+.title {
+  font-size: 1.3rem;
+  margin-bottom: 1%;
+}
+input,
+select {
+  padding: 1% 2%;
+  margin: 0.8%, 0;
+  border: 1px solid #cdcccc;
+  border-radius: 4px;
+  width: 95%;
+  box-sizing: border-box;
+}
+.actions {
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+.action-btn {
+  padding: 1.5% 2.5%;
+
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.submit-btn {
+  background-color: #673ab4;
+  color: white;
+}
+.reset-btn:hover {
+  background-color: #673ab43d;
+}
+.footer {
+  margin-top: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.copy-right {
+  font-size: 0.9rem;
+  color: #645f64;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #645f5f;
+}
+.required-icon {
+  color: #bb0707;
+}
+.account {
+  display: flex;
+}
+.switch-account {
+  flex-grow: 1;
+  margin-left: 2%;
+}
+
+.reset-btn {
+  background-color: unset;
+  color: #673ab4;
+}
+.red-border {
+  border: 2px solid red;
+}
+
+@media (max-width: 650px) 
+{
+  html {
+    margin: 8px 1%;
+    font-size: 12px;
+  }
+  input,
+  select {
+    width: 100%;
+    padding: 4% 5%;
+    font-size: 1.3rem;
+  }
+  .action-btn {
+    padding: 4.5% 6.5%;
+    font-size: 1.3rem;
+  }
+  .actions {
+    margin-top: 6%;
+  }
+
+  .logo {
+    font-size: 1.9rem;
+  }
+
+  .copy-right {
+    font-size: 1.2rem;
+  }
+
+  .email,
+  .switch-account,
+  .icon,
+  .description {
+    font-size: 1.3rem;
+  }
+}
