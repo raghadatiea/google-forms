@@ -58,19 +58,19 @@
 
 // }
 
-let emp = {
-  name: "Ahmad",
-  age: 25,
-  isActive: true,
-};
+// let emp = {
+//   name: "Ahmad",
+//   age: 25,
+//   isActive: true,
+// };
 
 //console.log(emp);
 
-emp.age = 26;
+//emp.age = 26;
 
 //console.log(emp.age);
 
-let date = new Date();
+//let date = new Date();
 //console.log(date);
 
 // Parsing | Casting
